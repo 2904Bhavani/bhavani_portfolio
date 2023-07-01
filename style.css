@@ -1,0 +1,46 @@
+.bannerBgImage{
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/815/829/non_2x/top-view-dark-and-black-background-with-hand-working-on-laptop-and-book-and-learning-geography-and-history-with-global-earth-map-ball-education-and-technology-concept-free-photo.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: White;
+}
+.bannertitle{
+    font-size: 25px;
+    color: peru;
+}
+.bannerDesc{
+    font-size: 60px;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+
+}
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+
+}
+.card-img-top{
+    height: 50vh;
+}
